@@ -15,7 +15,10 @@ class App extends Component {
     return (
       <div>
         <form>
-
+  <div class="form-group form-inline">
+<label>Name : </label>
+<input type="text" name="name" id="name" value={this.onChnage}
+  </div>
 
         </form>
       </div>
